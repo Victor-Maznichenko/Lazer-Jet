@@ -51,10 +51,10 @@ $(function() {
     });
 
     $('.review__slider').slick({
-        arrows: true,
+        arrows: false,
         infinite: true,
         slidesToShow: 3,
-        // autoplay: true,
+        autoplay: true,
         slidesToScroll: 1,
         prevArrow: '<button class="partners__slider-btn partners__slider-btnprev"><img src="images/arrow-left.svg" alt=""></button>',
         nextArrow: '<button class="partners__slider-btn partners__slider-btnnext"><img src="images/arrow-right.svg" alt=""></button>',
@@ -75,7 +75,6 @@ $(function() {
             settings: {
                 slidesToShow: 1,
                 dots: true,
-                arrows: false,
             }
         }
         ]
