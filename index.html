@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lazer-Jet</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div class="header__top-wrapper">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__top-address">
+                        <img src="images/map-pin.svg" alt="" class="header__top-address-img">
+                        <p class="header__top-address-text">г. Москва, 11-я ул. Текстильщиков, д. 4</p>
+                        <a class="header__top-address-link" href="#">Cхема проезда</a>
+                    </div>
+                    <div class="header__top-contact header-contact">
+                        <div class="header-contact__tel"><img src="images/tel.svg" alt="">(495) 709-6550</div>
+                        <div class="header-contact__tel"><img src="images/tel.svg" alt="">(495) 709-6550</div>
+                        <a class="header-contact__btn" href="tel:+74957096550">Обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__center-wrapper">
+            <div class="container">
+                <div class="header__center">
+                    <div class="header__menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu-btn-close">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img class="header__logo logo" src="images/logo.png" alt="">
+                    <div class="header__search">
+                        <input class="header__search-input" type="search" placeholder="Я ищу...">
+                        <button class="header__search-btn header__search-btn-deskop" type="submit">
+                                <img class="header__search-img" src="images/search.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="header__user-list">
+                        <button class="header__search-btn header__search-btn-mobile" type="submit">
+                            <img class="header__search-img" src="images/search-mobile.svg" alt="">
+                        </button>
+                        <div class="header__user-profile">
+                            <div class="header__user-profile-btn">
+                                <img src="images/user.svg" alt="">
+                                <p>Мой профиль</p>
+                            </div>
+                            <div class="header__user-profile-drop header-user__drop">
+                                <h4 class="header-user__drop-title">Авторизация</h4>
+                                <form class="header-user__drop-form">
+                                    <div class="header-user__drop-inputs">
+                                        <input type="text" class="header-user__drop-input" placeholder="Логин">
+                                        <input type="password" class="header-user__drop-input" placeholder="Пароль">
+                                    </div>
+                                    <div class="header-user__drop-btns">
+                                        <a class="header-user__drop-link" href="#">Забыли пароль?</a>
+                                        <button class="header-user__drop-btn" type="submit">Войти</button>
+                                    </div>
+                                </form>
+                                <span class="header-user__drop-transition">или</span>
+                                <div class="header-user__drop-social">
+                                    <h6 class="header-user__drop-social-title">Войти через соц. сети:</h6>
+                                    <ul class="header-user__drop-social-list">
+                                        <li class="header-user__drop-social-item"><img src="images/Google-Plus.svg" alt=""></li>
+                                        <li class="header-user__drop-social-item"><img src="images/vk.svg" alt=""></li>
+                                        <li class="header-user__drop-social-item"><img src="images/ok.svg" alt=""></li>
+                                        <li class="header-user__drop-social-item"><img src="images/Facebook.svg" alt=""></li>
+                                    </ul>
+                                </div>
+                                <span class="header-user__drop-transition">или</span>
+                                <a href="#" class="header-user__drop-reglink">Регистрация</a>
+                            </div>
+                        </div>
+                        <div class="header__user-basket">
+                            <div class="header__user-basket-img">
+                                <img src="images/basket.svg" alt=""><span class="header__user-basket-num header__user-basket-num">0</span>
+                            </div>
+                            <p>Корзина</p>
+                        </div>
+                        <div class="header__user-basket-drop"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom-wrapper">
+            <div class="container">
+                <div class="header__bottom">
+                    <nav class="header__menu menu">
+                        <div class="header__user-profile-btn header__user-profile-btn-mobile">
+                            <img src="images/user.svg" alt="">
+                            <p>Мой профиль</p>
+                        </div>
+                        <a class="header__menu-catalog" href="#"><img src="images/catalog-ico.svg" alt="">Каталог товаров</a>
+                        <ul class="header__menu-list menu__list">
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">О компании</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">Услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link header__menu-link-discount" href="#"><img src="discount-ico.svg" alt="">Акции</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">Партнерская программа</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">Оплата и доствака</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">Портфолио</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link menu__list-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                        <ul class="header__menu-contact-list">
+                            <li class="header__menu-contact-item"><img src="images/mail-yellow.svg" alt=""><a href="#">Отправить почту</a></li>
+                            <li class="header__menu-contact-item"><img src="images/map-pin.svg" alt=""><span>г. Москва, 11-я ул. Текстильщиков, д. 4</span></li>
+                            <li class="header__menu-contact-item"><img src="images/tel.svg" alt=""><span>(499) 178-5611</span></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__slider">
+                <a href="#"><img src="images/main-slider.jpg" alt="" class="main__slider-item"></a>
+                <a href="#"><img src="images/main-slider.jpg" alt="" class="main__slider-item"></a>
+                <a href="#"><img src="images/main-slider.jpg" alt="" class="main__slider-item"></a>
+                <a href="#"><img src="images/main-slider.jpg" alt="" class="main__slider-item"></a>
+                <a href="#"><img src="images/main-slider.jpg" alt="" class="main__slider-item"></a>
+            </div>
+            <div class="main__items">
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Машинная вышивка</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile1.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg1.png" alt="">
+                    </picture>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Шевроны и нашивки</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile2.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg2.png" alt="">
+                    </picture>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Печать</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile3.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg3.png" alt="">
+                    </picture>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Готовые изделия</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile4.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg4.png" alt="">
+                    </picture>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Лазерная резка</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile5.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg5.png" alt="">
+                    </picture>
+                </div>
+                <div class="main__item">
+                    <div class="main__item-info">
+                        <h3 class="main__item-title">Интернет магазин</h3>
+                        <a class="main__item-btn link" href="#">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/main-itemimg-mobile6.png" media="(max-width: 1010px)">
+                        <img class="main__item-img" src="images/main-itemimg6.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__inner">
+                <h2 class="services__title title">Почему выбирают нас</h2>
+                <div class="services__items">
+                    <div class="services__items-min">
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img1.svg" alt="">
+                            <h5 class="services__item-title">Вышьем уже сегодня</h5>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img2.svg" alt="">
+                            <h5 class="services__item-title">Удаленный заказ</h5>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img3.svg" alt="">
+                            <h5 class="services__item-title">Больше тираж - меньше цена</h5>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img4.svg" alt="">
+                            <h5 class="services__item-title">10 способов оплаты</h5>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img5.svg" alt="">
+                            <h5 class="services__item-title">Доставка курьером</h5>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/services-img6.svg" alt="">
+                            <h5 class="services__item-title">Закуп под вышивку</h5>
+                        </div>
+                    </div>
+                    <div class="services__item-large">
+                        <img class="services__item-large-img" src="images/services-img7.svg" alt="">
+                        <p class="services__item-large-description">успешной работы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__top">
+                <h2 class="portfolio__title title">Портфолио</h2>
+                <a class="portfolio__link" href="#">Все портфолио</a>
+            </div>
+            <div class="tabs-wrapper">
+                <div class="tabs portfolio__tabs">
+                    <a class="tab portfolio__tab tab--active" href="#portfolio-tab1">Вышивка</a>
+                    <a class="tab portfolio__tab" href="#portfolio-tab2">Шевроны и нашивки</a>
+                    <a class="tab portfolio__tab" href="#portfolio-tab3">Готовые изделия</a>
+                    <a class="tab portfolio__tab" href="#portfolio-tab4">Лазер</a>
+                    <a class="tab portfolio__tab" href="#portfolio-tab5">Печать</a>
+                </div>
+
+                <div class="tabs-container portfolio__container">
+                    <div class="tabs-content portfolio__content tabs-content--active" id="portfolio-tab1">
+                        <img class="portfolio__item" src="../images/portfolio-img1.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img2.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img3.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img4.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img5.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img6.jpg" alt="">
+                        <img class="portfolio__item" src="../images/portfolio-img7.jpg" alt="">
+                        <div class="portfolio__item">
+                            <p class="portfolio__item-description">Больше примеров</p>
+                            <div class="portfolio__item-links">
+                                <a href="#" class="portfolio__item-link">
+                                    <img src="images/vk-white.svg" alt="">
+                                </a>
+                                <a href="#" class="portfolio__item-link">
+                                    <img src="images/instagram-white.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-content portfolio__content" id="portfolio-tab2">content2</div>
+                    <div class="tabs-content portfolio__content" id="portfolio-tab3">content3</div>
+                    <div class="tabs-content portfolio__content" id="portfolio-tab4">content4</div>
+                    <div class="tabs-content portfolio__content" id="portfolio-tab5">content5</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount">
+        <div class="container">
+            <div class="discount__inner">
+                <h2 class="discount__title">Получите скидку на первый заказ</h2>
+                <form class="discount__form">
+                    <input class="discount__form-input" type="text" placeholder="Введите имя">
+                    <input class="discount__form-input" type="text" placeholder="Введите телефон">
+                    <button class="discount__form-btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+                <h2 class="advantages__title title">Преимущества</h2>
+                <div class="advantages__items">
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img1.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Низкие цены</h5>
+                            <p class="advantages__item-description">Конкурентоспособные цены</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img2.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Широкий ассортимент</h5>
+                            <p class="advantages__item-description">Отработано более 10 тыс. товарных наименований</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img3.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Большой опыт</h5>
+                            <p class="advantages__item-description">Более 20 лет успешной работы</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img4.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Доступность</h5>
+                            <p class="advantages__item-description">Офис и склад в одном месте. Можно всегда посмотреть товар</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img5.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Производство</h5>
+                            <p class="advantages__item-description">Собственное производство</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/services-img3.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Акции и скидки</h5>
+                            <p class="advantages__item-description">Приятные скидки для наших клиентов</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img7.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Высокая скорость</h5>
+                            <p class="advantages__item-description">Оперативность исполнения заказов</p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__item-img" src="images/advantages-img8.svg" alt="">
+                        <div class="advantages__item-info">
+                            <h5 class="advantages__item-title">Гос. контракты</h5>
+                            <p class="advantages__item-description">Поставщик по государственным контрактам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <img src="images/about-img.jpg" alt="" class="about__img">
+                <div class="about__info">
+                    <h2 class="about__info-title title">О компании</h2>
+                    <p class="about__info-text">Компания АЛЬЯНС ПЛЮС существует на российском рынке с 1996 года. Изначально Компания занималась продажей оснасток для печатей как российского, так и иностранного производства. Позже были освоены следующие направления: лазерная гравировка
+                        на пластике и резине с применением оборудования Universal Lazer Systems Ink и AXYZ; производство табличек, бейджей, клише для печатей, штампов, факсимиле. В 2006 году АЛЬЯНС ПЛЮС приобретает японские машины Tajima и осваивает мастерство
+                        вышивального производства. </p>
+                    <p class="about__info-text">В 2006 году АЛЬЯНС ПЛЮС приобретает японские машины Tajima и осваивает мастерство вышивального производства...</p>
+                    <div class="about__info-links">
+                        <a href="#" class="about__info-link-more">Подробности</a>
+                        <a href="#" class="about__info-link-jobs">Вакансии</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="partners__inner">
+                <div class="partners__top">
+                    <h2 class="partners__title title">Нам доверяют</h2>
+                    <a href="#" class="partners__link">Все партнёры</a>
+                </div>
+                <div class="partners__slider">
+                    <a class="partners__slider-item"><img src="images/parners-img1.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img2.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img3.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img4.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img5.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img1.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img2.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img3.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img4.png" alt=""></a>
+                    <a class="partners__slider-item"><img src="images/parners-img5.png" alt=""></a>
+                </div>
+                <div class="partners__items-mobile">
+                    <a href="#" class="partners__item-mobile"><img src="images/parners-img1.png" alt=""></a>
+                    <a href="#" class="partners__item-mobile"><img src="images/parners-img2.png" alt=""></a>
+                    <a href="#" class="partners__item-mobile"><img src="images/parners-img3.png" alt=""></a>
+                    <a href="#" class="partners__item-mobile"><img src="images/parners-img4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculate">
+        <div class="container">
+            <div class="calculate__inner">
+                <form class="calculate__form">
+                    <h2 class="calculate__title">Рассчитать заказ по моему макету</h2>
+                    <p class="calculate__description">Прикрепите ваш файл с макетом и мы сделаем индивидуальный рассчет</p>
+                    <div class="calculate__form-inputs">
+                        <input type="text" class="calculate__form-input" placeholder="Введите имя">
+                        <input type="email" class="calculate__form-input" placeholder="Введите e-mail">
+                        <input type="tel" class="calculate__form-input" placeholder="Введите телефон">
+                        <input type="text" class="calculate__form-input" placeholder="Детали заказа">
+                    </div>
+                    <div class="calculate__form-btns">
+                        <button class="calculate__form-btn-download"><img src="images/download.svg" alt="">Загрузить файл</button>
+                        <button class="calculate__form-btn-accept">Запросить расчёт</button>
+                    </div>
+                    <p class="calculate__form-root">Нажимая на кнопку, вы даете свое Согласие на обработку персональных данных</p>
+                    <div class="calculate__form-contact calculate-contact">
+                        <div class="calculate-contact__ask">
+                            <h5 class="calculate-contact__title">Задайте вопрос</h5>
+                            <ul class="calculate-contact__links">
+                                <li class="calculate-contact__link">
+                                    <a href="#"><img src="images/telegram-blue.svg" alt=""></a>
+                                </li>
+                                <li class="calculate-contact__link">
+                                    <a href="#"><img src="images/viber-blue.svg" alt=""></a>
+                                </li>
+                                <li class="calculate-contact__link">
+                                    <a href="#"><img src="images/whatsapp-blue.svg" alt=""></a>
+                                </li>
+                            </ul>
+                            <a href="mailto:zakaz@deana.ru" class="calculate-contact__email"><img src="images/mail.svg" alt="">zakaz@deana.ru</a>
+                        </div>
+                        <div class="calculate-contact__call">
+                            <h5 class="calculate-contact__title">Позвоните нам</h5>
+                            <div class="calculate-contact__tel"><img src="images/tel.svg" alt="">+7 495 181 18 18</div>
+                        </div>
+                    </div>
+                </form>
+                <img class="calculate__img" src="images/calculate-img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+            <div class="info__items">
+                <div class="info__item">
+                    <img class="info__item-img" src="images/info-img1.svg" alt="">
+                    <h4 class="info__item-title">Доставка</h4>
+                    <p class="info__item-text">Осуществляем доставку в любой регион России почтой или удобными транспортными компаниями...</p>
+                    <a href="#" class="info__item-link link">Подробнее</a>
+                </div>
+                <div class="info__item">
+                    <img class="info__item-img" src="images/info-img2.svg" alt="">
+                    <h4 class="info__item-title">Портфолио</h4>
+                    <p class="info__item-text">Портфолио некоторых наших проектов, уникальных заказов, интересных работ, дающих...</p>
+                    <a href="#" class="info__item-link link">Подробнее</a>
+                </div>
+                <div class="info__item">
+                    <img class="info__item-img" src="images/info-img3.svg" alt="">
+                    <h4 class="info__item-title">Партнерская программа</h4>
+                    <p class="info__item-text">Приглашаем заинтересованных лиц к продуктивному и взаимовыгодному сотрудничеству...</p>
+                    <a href="#" class="info__item-link link">Подробнее</a>
+                </div>
+                <div class="info__item">
+                    <img class="info__item-img" src="images/info-img4.svg" alt="">
+                    <h4 class="info__item-title">Наши вакансии</h4>
+                    <p class="info__item-text">Увлекательная работа в известной Компании с собственным производством. Необыкновенные...</p>
+                    <a href="#" class="info__item-link link">Подробнее</a>
+                </div>
+                <div class="info__item">
+                    <img class="info__item-img" src="images/info-img5.svg" alt="">
+                    <h4 class="info__item-title">Наши заказчики</h4>
+                    <p class="info__item-text">Наши Заказчики и Партнеры - известные государственные, общественные, спортивные...</p>
+                    <a href="#" class="info__item-link link">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container">
+            <div class="review__inner">
+                <h2 class="review__title">Наши клиенты о нас</h2>
+                <div class="review__slider">
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar1.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">24 марта 2019</p>
+                                <h5 class="review-profile__title">Алёна Трафимова</h5>
+                                <img class="review-profile__img" src="images/review-img1.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar2.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">30 апреля 2020</p>
+                                <h5 class="review-profile__title">Антоха Василевур</h5>
+                                <img class="review-profile__img" src="images/review-img2.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar3.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">3 мая 2020</p>
+                                <h5 class="review-profile__title">Василий Итаксойдон</h5>
+                                <img class="review-profile__img" src="images/review-img1.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar1.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">24 марта 2019</p>
+                                <h5 class="review-profile__title">Алёна Трафимова</h5>
+                                <img class="review-profile__img" src="images/review-img1.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar2.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">30 апреля 2020</p>
+                                <h5 class="review-profile__title">Антоха Василевур</h5>
+                                <img class="review-profile__img" src="images/review-img2.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                    <div class="review__slider-item">
+                        <div class="review__item-profile review-profile">
+                            <img class="review-profile__avatar" src="images/review-avatar3.png" alt="">
+                            <div class="review-profile__info">
+                                <p class="review-profile__data">3 мая 2020</p>
+                                <h5 class="review-profile__title">Василий Итаксойдон</h5>
+                                <img class="review-profile__img" src="images/review-img1.png" alt="">
+                            </div>
+                        </div>
+                        <p class="review__item-text">Заказывали бейджи для официантов. Все подробно объяснили, помогли с выбором цвета и формы бейджа и изготовили партию всего за 1 день. Через день наши бейджи были у нас в ресторане. Большое спасибо за оперативную работу...</p>
+                        <a class="review__item-link link" href="#">Отзыв полностью</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="banner__inner">
+                <a href="#">
+                    <picture>
+                        <source srcset="images/banner-mobile.jpg" media="(max-width: 600px)">
+                        <img class="banner__img" src="images/banner.jpg" alt="">
+                    </picture>
+
+                </a>
+                <div class="banner__bottom">
+                    <p class="banner__mailing-text">Хотите раньше всех узнавать о скидках и акциях? Подпишитесь на нашу рассылку</p>
+                    <button class="banner__mailing-btn">Подписаться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="production">
+        <div class="container">
+            <div class="production__inner">
+                <h2 class="production__title title">Интернет магазин готовой продукции</h2>
+                <div class="production__items">
+                    <div class="production__item">
+                        <img class="production__item-img" src="images/production-img1.jpg" alt="">
+                        <h4 class="production__item-title">Оснастка для печатей</h4>
+                    </div>
+                    <div class="production__item">
+                        <img class="production__item-img" src="images/production-img2.jpg" alt="">
+                        <h4 class="production__item-title">Готовые изделия</h4>
+                    </div>
+                    <div class="production__item">
+                        <img class="production__item-img" src="images/production-img3.jpg" alt="">
+                        <h4 class="production__item-title">Фурнитура</h4>
+                    </div>
+                    <div class="production__item">
+                        <img class="production__item-img" src="images/production-img4.jpg" alt="">
+                        <h4 class="production__item-title">Шевроны и нашивки</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <h5 class="footer__item-title">Laser-jet</h5>
+                    <div class="footer__item-list footer-list">
+                        <div class="footer-list__item"><a href="#">О компании</a></div>
+                        <div class="footer-list__item"><a href="#">Интернет-магазин</a></div>
+                        <div class="footer-list__item"><a href="#">Партнерская программа</a></div>
+                        <div class="footer-list__item"><a href="#">Наши партнеры</a></div>
+                        <div class="footer-list__item"><a href="#">Доставка</a></div>
+                        <div class="footer-list__item"><a href="#">Мой аккаунт</a></div>
+                        <div class="footer-list__item"><a href="#">Контакты</a></div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5 class="footer__item-title">Услуги</h5>
+                    <div class="footer__item-list footer-list">
+                        <div class="footer-list__item"><a href="#">Машинная вышивка</a></div>
+                        <div class="footer-list__item"><a href="#">Лазерная резка</a></div>
+                        <div class="footer-list__item"><a href="#">Шевроны и нашивки</a></div>
+                        <div class="footer-list__item"><a href="#">Печать</a></div>
+                        <div class="footer-list__item"><a href="#">Готовые изделия</a></div>
+                        <div class="footer-list__item"><a href="#">Цены</a></div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5 class="footer__item-title">Изделия на продажу</h5>
+                    <div class="footer__item-list footer-list">
+                        <div class="footer-list__item"><a href="#">Пластизолевые шевроны</a></div>
+                        <div class="footer-list__item"><a href="#">Жаккардовые шевроны</a></div>
+                        <div class="footer-list__item"><a href="#">Вышитые шевроны</a></div>
+                        <div class="footer-list__item"><a href="#">Расходные материалы</a></div>
+                        <div class="footer-list__item"><a href="#">Изделия из пластика</a></div>
+                        <div class="footer-list__item"><a href="#">Автоматическая оснастка</a></div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item-contact footer-contact">
+                        <h5 class="footer-contact__title">Контакты</h5>
+                        <ul class="footer-contact__list">
+                            <li class="footer-contact__item footer-contact__address">Москва, ул. 11-я Текстильщиков, дом 4</li>
+                            <li class="footer-contact__item footer-contact__tel"><span>(495) 709-6550</span><span>(495) 709-6550</span></li>
+                            <li class="footer-contact__item footer-contact__email">t178a@yandex.ru</li>
+                        </ul>
+                    </div>
+                    <div class="footer__item-join footer-join">
+                        <h5 class="footer-join__title">Присоединяйтесь</h5>
+                        <ul class="footer-join__list-top">
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/telegram.svg" alt=""></a>
+                            </li>
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/viber.svg" alt=""></a>
+                            </li>
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/whatsapp.svg" alt=""></a>
+                            </li>
+                        </ul>
+                        <ul class="footer-join__list-bottom">
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/ok-green.svg" alt=""></a>
+                            </li>
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/facebook-green.svg" alt=""></a>
+                            </li>
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/vk-green.svg" alt=""></a>
+                            </li>
+                            <li class="footer-join__item">
+                                <a href="#"><img src="images/instagram-green.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
